@@ -34,7 +34,9 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
+
 ```
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -107,8 +109,15 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
 ```
+
+
+
 <H3>OUTPUT:</H3>
-![Screenshot 2024-04-27 161847](https://github.com/abinayasangeetha/Ex-5--NN/assets/119393675/16ba626e-144f-4257-85c0-5bb7f2ff55ca)
+
+
+![Screenshot 2024-04-27 161847](https://github.com/abinayasangeetha/Ex-5--NN/assets/119393675/5d64f80a-c274-4da3-874e-be7e0969cd65)
+
+
 
 
 <H3>Result:</H3>
